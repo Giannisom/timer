@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+  <h1>Countdown Timer</h1>
+  <footer>
+   <p id="name" style="Created by Giannis">Created by <br> Giannis</p>
+  </footer>
+  </div>
+    <div id="timer">
+    <div id="hours">Set hours</div>
+    <div id="minutes">and</div>
+    <div id="seconds">minutes</div>
+         </div>
+    <div class="input-group">
+      <div class="input-container">
+        <label for="hoursInput">Hours:</label>
+        <input type="number" id="hoursInput" min="0" value="0">
+      </div>
+      <div class="input-container">
+        <label for="minutesInput">Minutes:</label>
+        <input type="number" id="minutesInput" min="0" max="59" value="0">
+      </div>
+   </div>
+    <div class="button-container">
+      <button id="startButton">Start</button>
+      <button id="stopButton">Stop</button>
+    </div>
+  <audio id="notificationSound" src="https://www.soundjay.com/button/sounds/beep-01a.mp3"></audio>  
+  <script src="timer.js"></script>
+</body>
+</html>
